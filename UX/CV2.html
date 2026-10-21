@@ -1,23 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Fernando Hernandez - CV</title>
-    </head>
-    <body>
-        <h1 style="background-color: blue; color: white; margin: 0">Fernando Hernandez</h1>
-        <p>Computer Science student</p>
-        <p>San Pedro Sula, Honduras</p>
-        <p>GitHub: <a href="https://github.com/Fhernandez20">github.com/Fhernandez20</a></p>
-        <hr>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Hernandez - CV</title>
+    <style>
+        /* Estilos generales de la página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            /* Un fondo gris muy claro */
+            color: #333333;
+            /* Texto gris oscuro, menos agresivo que el negro puro */
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Contenedor central simulando una hoja de papel */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            /* Centra el contenedor en la pantalla */
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            /* Bordes ligeramente redondeados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Sombra suave */
+        }
+
+        /* Estilos del encabezado */
+        header {
+            background-color: #0056b3;
+            /* Azul profesional */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px 8px 0 0;
+            /* Solo redondea arriba */
+            margin: -40px -40px 20px -40px;
+            /* Extiende el fondo hasta los bordes del contenedor */
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1.1em;
+        }
+
+        header a {
+            color: #e0e0e0;
+        }
+
+        /* Estilos de los títulos */
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            /* Línea separadora debajo del título */
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        h3 {
+            color: #222;
+            margin-bottom: 5px;
+        }
+
+        /* Caja destacada para la información general */
+        .info-box {
+            background-color: #e9f2fa;
+            /* Azul muy clarito */
+            border-left: 4px solid #0056b3;
+            /* Borde grueso a la izquierda */
+            padding: 15px;
+            font-style: italic;
+            line-height: 1.5;
+        }
+
+        /* Estilos de listas y enlaces */
+        ul {
+            line-height: 1.6;
+        }
+
+        a {
+            color: #0056b3;
+            text-decoration: none;
+            /* Quita el subrayado por defecto */
+        }
+
+        a:hover {
+            text-decoration: underline;
+            /* Lo subraya solo al pasar el mouse */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Encabezado principal -->
+        <header>
+            <h1>Fernando Hernandez</h1>
+            <p>Computer Science student | San Pedro Sula, Honduras</p>
+            <p>GitHub: <a href="https://github.com/Fhernandez20" target="_blank">github.com/Fhernandez20</a> | Email:
+                (add your email)</p>
+        </header>
 
         <h2>General Information</h2>
-        <p style="border: 2px solid blue">
+        <!-- Caja con estilo para destacar la presentación -->
+        <div class="info-box">
             I am a 20-year-old Honduran student of Computer Science at UNITEC San Pedro Sula.
             I have about 3 years of programming experience and I enjoy building real projects,
             from games to tools used by a local restaurant.
-        </p>
+        </div>
 
         <h2>Skills</h2>
         <ul>
@@ -33,14 +133,17 @@
         <p><em>Google Apps Script, Google Sheets</em></p>
         <ul>
             <li>Built and maintain an order management system for a local restaurant with seven menu categories.</li>
-            <li>Designed a calendar that reads live data from all registry sheets and shows color-coded daily summaries.</li>
+            <li>Designed a calendar that reads live data from all registry sheets and shows color-coded daily summaries.
+            </li>
             <li>Fixed bugs in triggers, column indexes and timezones.</li>
         </ul>
 
         <h3>Habit Tracker</h3>
-        <p><em>Next.js, Material UI, NestJS, Prisma, MongoDB, Docker</em> - <a href="https://github.com/Fhernandez20/ProyectoUx">GitHub</a></p>
+        <p><em>Next.js, Material UI, NestJS, Prisma, MongoDB, Docker</em> | <a
+                href="https://github.com/Fhernandez20/ProyectoUx" target="_blank">GitHub</a></p>
         <ul>
-            <li>Web app to manage personal habits and goals, with user persona, wireframes and a backend connected to MongoDB.</li>
+            <li>Web app to manage personal habits and goals, with user persona, wireframes and a backend connected to
+                MongoDB.</li>
         </ul>
 
         <h2>Languages</h2>
@@ -49,12 +152,7 @@
             <li>English - (add your level)</li>
         </ul>
 
-        <h2>Contact</h2>
-        <p>Email: (add your email)</p>
-    </body>
-<style>
-    h2 {
-        color: blue;
-    }
-</style>
+    </div>
+</body>
+
 </html>
